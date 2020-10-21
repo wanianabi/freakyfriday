@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forside</title>
+      <style>
+      html {
+          display: table;
+          margin: auto;
+      }
+      body {
+      	background: #e6f2ff;
+      	font-weight: 800;
+      }
+      .container {
+      	width: 100%;
+      	margin: 0 auto;
+      }
+      header {
+        background: #e6f2ff;
+      }
+      header::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+      nav {
+        float: middle;
+      }
+      nav li {
+        display: inline-block;
+        margin-left: 70px;
+        padding-top: 25px;
+      }
+      nav a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+      }
+      nav a:hover {
+        border-bottom: 2px solid navy;
+      }
+      .container a#index{
+        border-bottom: 2px solid navy;
+      }
+
+      </style>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+          <nav>
+            <ul>
+              <li><a id="index" href="index.html">Kroppen</a></li>
+              <li><a id="informasjon" href="informasjon.html">Informasjon</li>
+              <li><a id="sykdommer" href="sykdommer.html">Sykdommer</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <main>
+      <h1>Kroppen vår</h1>
+
+      <img src="menneskekropp.jpg" width="500px">
+
+      <h3>Menneskekroppens organsystemer</h3>
+      <ul>
+        <li>Urinveissystemet</li>
+        <li>Lymfesystemet</li>
+        <li>Sirkulasjonssystemet</li>
+        <li>Huden</li>
+        <li>Det endoktrine systemet</li>
+        <li>Fordøyelsessytemet</li>
+        <li>Nervesystemet</li>
+        <li>Respirasjonssystemet</li>
+        <li>Skjelettet</li>
+        <li>Musklene</li>
+      </ul>
+    </main>
+
+  </body>
+</html>
